@@ -1,0 +1,336 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 6 
+1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 2 1 3 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "exit; restart;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%exitG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "grtw();" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%=GRTensorI
+I~Version~1.79~(R4)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%06~February~2
+001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%ZDeveloped~by~Peter~Musgrave,
+~Denis~Pollney~and~Kayll~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%DCo
+pyright~1994-2001~by~the~authors.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+%inLatest~version~available~from:~http://grtensor.phy.queensu.ca/G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%4C:/Grtii(6)/MetricsG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "makeg( Kerr );" }}{PARA 6 "" 1 "" 
+{TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 1 " " }}{PARA 6 "" 1 "" 
+{TEXT -1 46 "Makeg 2.0: GRTensor metric/basis entry utility" }}{PARA 
+6 "" 1 "" {TEXT -1 1 " " }}{PARA 6 "" 1 "" {TEXT -1 41 "To quit makeg,
+ type 'exit' at any prompt." }}{PARA 6 "" 1 "" {TEXT -1 1 " " }}{PARA 
+6 "" 1 "" {TEXT -1 44 "Do you wish to enter a 1) metric [g(dn,dn)]," }
+}{PARA 6 "" 1 "" {TEXT -1 44 "                       2) line element [
+ds]," }}{PARA 6 "" 1 "" {TEXT -1 63 "                       3) non-hol
+onomic basis [e(1)...e(n)], or" }}{PARA 6 "" 1 "" {TEXT -1 49 "       \+
+                4) NP tetrad [l,n,m,mbar]?" }}{PARA 6 "" 1 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 2 "2;" }}{PARA 6 
+"" 1 "" {TEXT -1 50 "Enter coordinates as a LIST (eg. [t,r,theta,phi])
+:" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 16 "[t,r,theta,phi];" 
+}}{PARA 6 "" 1 "" {TEXT -1 64 "Enter the line element using d[coord] t
+o indicate differentials." }}{PARA 6 "" 1 "" {TEXT -1 55 "(for example
+,  r^2*(d[theta]^2 + sin(theta)^2*d[phi]^2)" }}{PARA 6 "" 1 "" {TEXT 
+-1 27 "[Type 'exit' to quit makeg]" }}{PARA 6 "" 1 "" {TEXT -1 8 " ds^
+2 = " }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 271 "((r^2+a^2*cos(
+theta)^2)/(r^2-2*m*r+a^2))*d[r]^2+(r^2+a^2*cos(theta)^2)*d[theta]^2+((
+sin(theta)^2)*(r^2+a^2+((2*m*r*a^2*sin(theta)^2)/(r^2+a^2*cos(theta)^2
+))))*d[phi]^2-((4*m*a*r*sin(theta)^2)/(r^2+a^2*cos(theta)^2))*d[phi]*d
+[t]+(-1+(2*m*r)/(r^2+a^2*cos(theta)^2))*d[t]^2;" }}{PARA 6 "" 1 "" 
+{TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 67 "If there are any complex \+
+valued coordinates, constants or functions" }}{PARA 6 "" 1 "" {TEXT 
+-1 66 "for this spacetime, please enter them as a SET ( eg. \{ z, psi \+
+\} )." }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 33 "
+Complex quantities [default=\{\}]: " }}}{EXCHG {PARA 0 "makeg>" 0 "" 
+{MPLTEXT 1 0 2 "\{\}" }}{PARA 6 "" 1 "" {TEXT -1 2 "\{\}" }}{PARA 6 "
+" 1 "" {TEXT -1 1 " " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%AThe~values~y
+ou~have~entered~are:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%,Coordinate
+sG7&%\"tG%\"rG%&thetaG%$phiG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%(Metr
+ic:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"gG6#%\"tG\"\"\"&%!GF'F)
+,&F)!\"\"**\"\"#F)%\"mGF)%\"rGF),&*$)F1F/F)F)*&)%\"aGF/F))-%$cosG6#%&t
+hetaGF/F)F)F-F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"gG6#%\"tG\"
+\"\"&%!G6#%\"rGF)\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"gG6#%
+\"tG\"\"\"&%!G6#%&thetaGF)\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&
+&%\"gG6#%\"tG\"\"\"&%!G6#%$phiGF),$*.\"\"#F)%\"mGF)%\"aGF)%\"rGF)-%$si
+nG6#%&thetaGF0,&*$)F3F0F)F)*&)F2F0F))-%$cosGF6F0F)F)!\"\"F@" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/*&&%\"gG6#%\"rG\"\"\"&%!G6#%\"tGF)\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"gG6#%\"rG\"\"\"&%!GF'F),&*&,(*$
+)F(\"\"#F)F)*(F1F)%\"mGF)F(F)!\"\"*$)%\"aGF1F)F)F4F(F1F)*(F.F4F7F1-%$c
+osG6#%&thetaGF1F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"gG6#%\"rG
+\"\"\"&%!G6#%&thetaGF)\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"
+gG6#%\"rG\"\"\"&%!G6#%$phiGF)\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+/*&&%\"gG6#%&thetaG\"\"\"&%!G6#%\"tGF)\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/*&&%\"gG6#%&thetaG\"\"\"&%!G6#%\"rGF)\"\"!" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/*&&%\"gG6#%&thetaG\"\"\"&%!GF'F),&*$)%\"rG
+\"\"#F)F)*&)%\"aGF0F))-%$cosGF'F0F)F)" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/*&&%\"gG6#%&thetaG\"\"\"&%!G6#%$phiGF)\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/*&&%\"gG6#%$phiG\"\"\"&%!G6#%\"tGF),$*.\"\"#F)%\"mGF)%
+\"aGF)%\"rGF)-%$sinG6#%&thetaGF0,&*$)F3F0F)F)*&)F2F0F))-%$cosGF6F0F)F)
+!\"\"F@" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"gG6#%$phiG\"\"\"&%!G
+6#%\"rGF)\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"gG6#%$phiG\"
+\"\"&%!G6#%&thetaGF)\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"gG
+6#%$phiG\"\"\"&%!GF'F),(*&)-%$sinG6#%&thetaG\"\"#F))%\"rGF3F)F)*&F.F))
+%\"aGF3F)F)*.F3F)F/\"\"%%\"mGF)F5F)F8F3,&*$F4F)F)*&F7F))-%$cosGF1F3F)F
+)!\"\"F)" }}{PARA 6 "" 1 "" {TEXT -1 54 "You may choose to 0) Use the \+
+metric WITHOUT saving it," }}{PARA 6 "" 1 "" {TEXT -1 46 "            \+
+      1) Save the metric as it is," }}{PARA 6 "" 1 "" {TEXT -1 54 "   \+
+               2) Correct an element of the metric," }}{PARA 6 "" 1 "
+" {TEXT -1 41 "                  3) Re-enter the metric," }}{PARA 6 "
+" 1 "" {TEXT -1 54 "                  4) Add/change constraint equatio
+ns, " }}{PARA 6 "" 1 "" {TEXT -1 47 "                  5) Add a text d
+escription, or" }}{PARA 6 "" 1 "" {TEXT -1 61 "                  6) Ab
+andon this metric and return to Maple." }}{PARA 6 "" 1 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 2 "0;" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/%2Default~spacetimeG%%KerrG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%8For~the~Kerr~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"x
+G6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~G%\"aGK%'vectorG6#7&
+%\"tG%\"rG%&thetaG%$phiGQ(pprint06\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%-Line~elementG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*$)%$~dsG\"\"#\"
+\"\",,*(,&F(!\"\"**F'F(%\"mGF(%\"rGF(,&*$)F/F'F(F(*&)%\"aGF'F()-%$cosG
+6#%&thetaGF'F(F(F,F(F(%#~dGF()%\"tG%#2~GF(F(*6\"\"%F(F.F(F5F(F/F(-%$si
+nGF9F'F0F,F;F()F=%\"~GF(%#d~GF()%$phiGFDF(F,*(,&*&,(F1F(*(F'F(F.F(F/F(
+F,*$F4F(F(F,F/F'F(*(FKF,F5F'F7F'F(F(F;F()F/F>F(F(*(F0F(F;F()F:F>F(F(*(
+,(*&)FAF'F(F2F(F(*&FUF(F4F(F(*.F'F(FAF@F.F(F/F(F5F'F0F,F(F(F;F()FGF>F(
+F(" }}{PARA 6 "" 1 "" {TEXT -1 18 "makeg() completed." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "grcalcalter( Chr(up,dn,dn), 2 );" }
+}{PARA 6 "" 1 "" {TEXT -1 37 "Created definition for Chr(up,dn,dn) " }
+}{PARA 6 "" 1 "" {TEXT -1 50 "Simplification will be applied during ca
+lculation." }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT 
+-1 56 "Applying routine `simplify[trig]` to object g(dn,dn,pdn)" }}
+{PARA 6 "" 1 "" {TEXT -1 57 "Applying routine `simplify[trig]` to obje
+ct Chr(dn,dn,dn)" }}{PARA 6 "" 1 "" {TEXT -1 52 "Applying routine `sim
+plify[trig]` to object g(up,up)" }}{PARA 6 "" 1 "" {TEXT -1 57 "Applyi
+ng routine `simplify[trig]` to object Chr(up,dn,dn)" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/%*CPU~Time~G$\"$P%!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "grdisplay( Chr(up,dn,dn) );" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%8For~the~Kerr~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%.Chr(up,dn,dn)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&
+)%&GammaG%\"rG\"\"\"&%!G6#*&%\"tGF(%\"tGF(F(**,(*$)%\"rG\"\"#F(F(*(F4F
+(%\"mGF(F3F(!\"\"*$)%\"aGF4F(F(F(F6F(,&F1F7*&F9F()-%$cosG6#%&thetaGF4F
+(F(F(,**$)F3\"\"'F(F(**\"\"$F()F3\"\"%F(F9F(F=F(F(**FGF(F2F()F:FIF()F>
+FIF(F(*&)F:FEF()F>FEF(F(F7" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&Ga
+mmaG%&thetaG\"\"\"&%!G6#*&%\"tGF(%\"tGF(F(,$*0\"\"#F(%\"mGF(%\"rGF(%\"
+aGF1-%$cosG6#%&thetaGF(-%$sinGF7F(,**$)F3\"\"'F(F(**\"\"$F()F3\"\"%F()
+F4F1F()F5F1F(F(**F@F()F3F1F()F4FBF()F5FBF(F(*&)F4F>F()F5F>F(F(!\"\"F(
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%\"tG\"\"\"&%!G6#*&%\"
+rGF(%\"tGF(F(,$**%\"mGF(,&*$)%\"rG\"\"#F(!\"\"*&)%\"aGF6F()-%$cosG6#%&
+thetaGF6F(F(F(,&F3F(*$F9F(F(F(,4*$)F5\"\"'F(F(*(F6F()F5\"\"&F(F1F(F7*&
+F9F()F5\"\"%F(F(**F6F(FJF(F9F(F;F(F(*,FKF(F;F(F1F()F5\"\"$F(F9F(F7**F6
+F()F:FKF(F4F(F;F(F(*(F4F(FQF()F<FKF(F(*,F6F(FSF(F1F(F5F(FQF(F7*&)F:FEF
+(FSF(F(F7F7" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%$phiG\"\"
+\"&%!G6#*&%\"rGF(%\"tGF(F(,$**%\"mGF(%\"aGF(,&*$)%\"rG\"\"#F(!\"\"*&)F
+2F7F()-%$cosG6#%&thetaGF7F(F(F(,4*$)F6\"\"'F(F(*(F7F()F6\"\"&F(F1F(F8*
+&F:F()F6\"\"%F(F(**F7F(FHF(F:F(F;F(F(*,FIF(F;F(F1F()F6\"\"$F(F:F(F8**F
+7F()F2FIF(F5F(F;F(F(*(F5F(FOF()F<FIF(F(*,F7F(FQF(F1F(F6F(FOF(F8*&)F2FC
+F(FQF(F(F8F8" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%\"tG\"\"
+\"&%!G6#*&%&thetaGF(%\"tGF(F(,$*0\"\"#F(%\"mGF(%\"rGF(%\"aGF1-%$cosG6#
+%&thetaGF(-%$sinGF7F(,(*$)F3\"\"%F(F(**F1F()F3F1F()F4F1F()F5F1F(F(*&)F
+4F>F()F5F>F(F(!\"\"FF" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%
+$phiG\"\"\"&%!G6#*&%&thetaGF(%\"tGF(F(,$*0\"\"#F(-%$cosG6#%&thetaGF(%
+\"mGF(%\"rGF(%\"aGF(,(*$)F7\"\"%F(F(**F1F()F7F1F()F8F1F()F2F1F(F(*&)F8
+F<F()F2F<F(F(!\"\"-%$sinGF4FDFD" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&
+)%&GammaG%\"rG\"\"\"&%!G6#*&%$phiGF(%\"tGF(F(,$*.,(*$)%\"rG\"\"#F(F(*(
+F5F(%\"mGF(F4F(!\"\"*$)%\"aGF5F(F(F(F7F(F;F(-%$sinG6#%&thetaGF5,&F2F8*
+&F:F()-%$cosGF>F5F(F(F(,**$)F4\"\"'F(F(**\"\"$F()F4\"\"%F(F:F(FBF(F(**
+FJF(F3F()F;FLF()FCFLF(F(*&)F;FHF()FCFHF(F(F8F8" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/*&)%&GammaG%&thetaG\"\"\"&%!G6#*&%$phiGF(%\"tGF(F(,$*2
+\"\"#F(,&*$)%\"rGF1F(F(*$)%\"aGF1F(F(F(F8F(%\"mGF(F5F(-%$cosG6#%&theta
+GF(-%$sinGF<F(,**$)F5\"\"'F(F(**\"\"$F()F5\"\"%F(F7F()F:F1F(F(**FEF(F4
+F()F8FGF()F:FGF(F(*&)F8FCF()F:FCF(F(!\"\"FO" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/*&)%&GammaG%\"tG\"\"\"&%!G6#*&%\"tGF(%\"rGF(F(**%\"mGF
+(,&*$)%\"rG\"\"#F(!\"\"*&)%\"aGF5F()-%$cosG6#%&thetaGF5F(F(F(,&F2F(*$F
+8F(F(F(,4*$)F4\"\"'F(F(*(F5F()F4\"\"&F(F0F(F6*&F8F()F4\"\"%F(F(**F5F(F
+IF(F8F(F:F(F(*,FJF(F:F(F0F()F4\"\"$F(F8F(F6**F5F()F9FJF(F3F(F:F(F(*(F3
+F(FPF()F;FJF(F(*,F5F(FRF(F0F(F4F(FPF(F6*&)F9FDF(FRF(F(F6" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%$phiG\"\"\"&%!G6#*&%\"tGF(%\"rGF(F(
+**%\"mGF(%\"aGF(,&*$)%\"rG\"\"#F(!\"\"*&)F1F6F()-%$cosG6#%&thetaGF6F(F
+(F(,4*$)F5\"\"'F(F(*(F6F()F5\"\"&F(F0F(F7*&F9F()F5\"\"%F(F(**F6F(FGF(F
+9F(F:F(F(*,FHF(F:F(F0F()F5\"\"$F(F9F(F7**F6F()F1FHF(F4F(F:F(F(*(F4F(FN
+F()F;FHF(F(*,F6F(FPF(F0F(F5F(FNF(F7*&)F1FBF(FPF(F(F7" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/*&)%&GammaG%\"rG\"\"\"&%!G6#*&%\"rGF(%\"rGF(F(*(,(*
+$)%\"rG\"\"#F(F(*(F4F(%\"mGF(F3F(!\"\"*$)%\"aGF4F(F(F7,**&F6F(F2F(F7*&
+F3F(F9F(F(*(F9F()-%$cosG6#%&thetaGF4F(F3F(F7*(F6F(F9F(F?F(F(F(,&F1F(*&
+F9F(F?F(F(F7" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%&thetaG\"
+\"\"&%!G6#*&%\"rGF(%\"rGF(F(,$*,,&*$)%\"rG\"\"#F(F(*&)%\"aGF5F()-%$cos
+G6#%&thetaGF5F(F(!\"\",(F2F(*(F5F(%\"mGF(F4F(F>*$F7F(F(F>F8F5F:F(-%$si
+nGF<F(F>" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%\"rG\"\"\"&%!
+G6#*&%&thetaGF(%\"rGF(F(,$**,&*$)%\"rG\"\"#F(F(*&)%\"aGF5F()-%$cosG6#%
+&thetaGF5F(F(!\"\"F8F5F:F(-%$sinGF<F(F>" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/*&)%&GammaG%&thetaG\"\"\"&%!G6#*&%&thetaGF(%\"rGF(F(,$*&,&*$)%
+\"rG\"\"#F(F(*&)%\"aGF5F()-%$cosG6#%&thetaGF5F(F(!\"\"F4F(F>" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%\"tG\"\"\"&%!G6#*&%$phiGF(%\"rG
+F(F(,$*,,**&)%\"aG\"\"%F()-%$cosG6#%&thetaG\"\"#F(F(*()%\"rGF;F()F4F;F
+(F6F(!\"\"*&F=F(F?F(F@*&\"\"$F()F>F5F(F@F(%\"mGF(F4F(-%$sinGF9F;,4*$)F
+>\"\"'F(F(*(F;F()F>\"\"&F(FEF(F@*&F?F(FDF(F(**F;F(FDF(F?F(F6F(F(*,F5F(
+F6F(FEF()F>FCF(F?F(F@**F;F(F3F(F=F(F6F(F(*(F=F(F3F()F7F5F(F(*,F;F(FUF(
+FEF(F>F(F3F(F@*&)F4FKF(FUF(F(F@F@" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/
+*&)%&GammaG%$phiG\"\"\"&%!G6#*&%$phiGF(%\"rGF(F(*&,2*(%\"rGF()%\"aG\"
+\"%F()-%$cosG6#%&thetaGF5F(!\"\"*(F6F(%\"mGF(F3F(F(*(F=F(F3F()F7\"\"#F
+(F;**F@F()F2\"\"$F()F4F@F(F?F(F;**F?F(F=F()F2F@F(FDF(F(*(F=F(FFF(FDF(F
+(*$)F2\"\"&F(F;*(F@F()F2F5F(F=F(F(F(,4*$)F2\"\"'F(F(*(F@F(FIF(F=F(F;*&
+FDF(FLF(F(**F@F(FLF(FDF(F?F(F(*,F5F(F?F(F=F(FBF(FDF(F;**F@F(F3F(FFF(F?
+F(F(*(FFF(F3F(F6F(F(*,F@F(F6F(F=F(F2F(F3F(F;*&)F4FPF(F6F(F(F;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%\"tG\"\"\"&%!G6#*&%\"tGF(
+%&thetaGF(F(,$*0\"\"#F(%\"mGF(%\"rGF(%\"aGF1-%$cosG6#%&thetaGF(-%$sinG
+F7F(,(*$)F3\"\"%F(F(**F1F()F3F1F()F4F1F()F5F1F(F(*&)F4F>F()F5F>F(F(!\"
+\"F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%$phiG\"\"\"&%!G6#
+*&%\"tGF(%&thetaGF(F(,$*0\"\"#F(-%$cosG6#%&thetaGF(%\"mGF(%\"rGF(%\"aG
+F(,(*$)F7\"\"%F(F(**F1F()F7F1F()F8F1F()F2F1F(F(*&)F8F<F()F2F<F(F(!\"\"
+-%$sinGF4FDF(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%\"rG\"\"
+\"&%!G6#*&%\"rGF(%&thetaGF(F(**,&*$)%\"rG\"\"#F(F(*&)%\"aGF4F()-%$cosG
+6#%&thetaGF4F(F(!\"\"F7F4F9F(-%$sinGF;F(" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/*&)%&GammaG%&thetaG\"\"\"&%!G6#*&%\"rGF(%&thetaGF(F(*&,&*$)%\"r
+G\"\"#F(F(*&)%\"aGF4F()-%$cosG6#%&thetaGF4F(F(!\"\"F3F(" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%\"rG\"\"\"&%!G6#*&%&thetaGF(%&theta
+GF(F(*(,(*$)%\"rG\"\"#F(F(*(F4F(%\"mGF(F3F(!\"\"*$)%\"aGF4F(F(F(,&F1F(
+*&F9F()-%$cosG6#%&thetaGF4F(F(F7F3F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#/*&)%&GammaG%&thetaG\"\"\"&%!G6#*&%&thetaGF(%&thetaGF(F(,$**,&*$)%\"
+rG\"\"#F(F(*&)%\"aGF5F()-%$cosG6#%&thetaGF5F(F(!\"\"F8F5F:F(-%$sinGF<F
+(F>" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%\"tG\"\"\"&%!G6#*&
+%$phiGF(%&thetaGF(F(,$*0\"\"#F(-%$sinG6#%&thetaG\"\"$-%$cosGF4F(%\"aGF
+6%\"mGF(%\"rGF(,(*$)F;\"\"%F(F(**F1F()F;F1F()F9F1F()F7F1F(F(*&)F9F?F()
+F7F?F(F(!\"\"FG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%$phiG
+\"\"\"&%!G6#*&%$phiGF(%&thetaGF(F(,$**-%$cosG6#%&thetaGF(,,*&)%\"aG\"
+\"%F()F1F9F(F(*,\"\"#F(%\"mGF(%\"rGF()F8F<F()F1F<F(!\"\"**F<F()F>F<F(F
+?F(F@F(F(**F<F(F=F(F>F(F?F(F(*$)F>F9F(F(F(,(FEF(**F<F(FCF(F?F(F@F(F(F6
+F(FA-%$sinGF3FAFA" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%\"rG
+\"\"\"&%!G6#*&%\"tGF(%$phiGF(F(,$*.,(*$)%\"rG\"\"#F(F(*(F5F(%\"mGF(F4F
+(!\"\"*$)%\"aGF5F(F(F(F7F(F;F(-%$sinG6#%&thetaGF5,&F2F8*&F:F()-%$cosGF
+>F5F(F(F(,**$)F4\"\"'F(F(**\"\"$F()F4\"\"%F(F:F(FBF(F(**FJF(F3F()F;FLF
+()FCFLF(F(*&)F;FHF()FCFHF(F(F8F8" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*
+&)%&GammaG%&thetaG\"\"\"&%!G6#*&%\"tGF(%$phiGF(F(,$*2\"\"#F(,&*$)%\"rG
+F1F(F(*$)%\"aGF1F(F(F(F8F(%\"mGF(F5F(-%$cosG6#%&thetaGF(-%$sinGF<F(,**
+$)F5\"\"'F(F(**\"\"$F()F5\"\"%F(F7F()F:F1F(F(**FEF(F4F()F8FGF()F:FGF(F
+(*&)F8FCF()F:FCF(F(!\"\"FO" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&Ga
+mmaG%\"tG\"\"\"&%!G6#*&%\"rGF(%$phiGF(F(*,,**&)%\"aG\"\"%F()-%$cosG6#%
+&thetaG\"\"#F(F(*()%\"rGF:F()F3F:F(F5F(!\"\"*&F<F(F>F(F?*&\"\"$F()F=F4
+F(F?F(%\"mGF(F3F(-%$sinGF8F:,4*$)F=\"\"'F(F(*(F:F()F=\"\"&F(FDF(F?*&F>
+F(FCF(F(**F:F(FCF(F>F(F5F(F(*,F4F(F5F(FDF()F=FBF(F>F(F?**F:F(F2F(F<F(F
+5F(F(*(F<F(F2F()F6F4F(F(*,F:F(FTF(FDF(F=F(F2F(F?*&)F3FJF(FTF(F(F?" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%$phiG\"\"\"&%!G6#*&%\"rGF
+(%$phiGF(F(,$*&,2*(%\"rGF()%\"aG\"\"%F()-%$cosG6#%&thetaGF6F(!\"\"*(F7
+F(%\"mGF(F4F(F(*(F>F(F4F()F8\"\"#F(F<**FAF()F3\"\"$F()F5FAF(F@F(F<**F@
+F(F>F()F3FAF(FEF(F(*(F>F(FGF(FEF(F(*$)F3\"\"&F(F<*(FAF()F3F6F(F>F(F(F(
+,4*$)F3\"\"'F(F(*(FAF(FJF(F>F(F<*&FEF(FMF(F(**FAF(FMF(FEF(F@F(F(*,F6F(
+F@F(F>F(FCF(FEF(F<**FAF(F4F(FGF(F@F(F(*(FGF(F4F(F7F(F(*,FAF(F7F(F>F(F3
+F(F4F(F<*&)F5FQF(F7F(F(F<F<" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&G
+ammaG%\"tG\"\"\"&%!G6#*&%&thetaGF(%$phiGF(F(,$*0\"\"#F(-%$sinG6#%&thet
+aG\"\"$-%$cosGF4F(%\"aGF6%\"mGF(%\"rGF(,(*$)F;\"\"%F(F(**F1F()F;F1F()F
+9F1F()F7F1F(F(*&)F9F?F()F7F?F(F(!\"\"F(" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/*&)%&GammaG%$phiG\"\"\"&%!G6#*&%&thetaGF(%$phiGF(F(**-%$cosG6#%
+&thetaGF(,,*&)%\"aG\"\"%F()F0F8F(F(*,\"\"#F(%\"mGF(%\"rGF()F7F;F()F0F;
+F(!\"\"**F;F()F=F;F(F>F(F?F(F(**F;F(F<F(F=F(F>F(F(*$)F=F8F(F(F(,(FDF(*
+*F;F(FBF(F>F(F?F(F(F5F(F@-%$sinGF2F@" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#/*&)%&GammaG%\"rG\"\"\"&%!G6#*&%$phiGF(%$phiGF(F(**,(*$)%\"rG\"\"#F(
+!\"\"*(F4F(%\"mGF(F3F(F(*$)%\"aGF4F(F5F(-%$sinG6#%&thetaGF4,0*(F3F()F:
+\"\"%F()-%$cosGF=FBF(F5*(FCF(F7F(FAF(F(**)FDF4F(F7F(F2F(F9F(F5**F4F()F
+3\"\"$F(F9F(FHF(F5*(F7F(FAF(FHF(F5*$)F3\"\"&F(F5*(F7F(F2F(F9F(F(F(,**$
+)F3\"\"'F(F(**FKF()F3FBF(F9F(FHF(F(**FKF(F2F(FAF(FCF(F(*&)F:FTF()FDFTF
+(F(F5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%&GammaG%&thetaG\"\"\"&%!
+G6#*&%$phiGF(%$phiGF(F(**-%$sinG6#%&thetaGF(-%$cosGF2F(,6*()%\"rG\"\"#
+F()%\"aG\"\"%F()F4F=F(F(*&)F<\"\"'F(F>F(F(**F:F()F9F=F()F<F:F()F4F:F(F
+(**F:F(F;F(F8F(FEF(F(*$)F9FAF(F(*&FDF(FCF(F(**F=F(%\"mGF()F9\"\"$F(FDF
+(F(**F:F(FKF(F9F(F;F(F(*,F:F(F>F(FKF(F9F(F;F(!\"\"*,F=F(FEF(FKF(FLF(FD
+F(FPF(,*FGF(**FMF(FCF(FDF(FEF(F(**FMF(F8F(F;F(F>F(F(*&F@F()F4FAF(F(FP
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "grcalcalter( Riemann, 2
+ );" }}{PARA 6 "" 1 "" {TEXT -1 50 "Simplification will be applied dur
+ing calculation." }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" 
+{TEXT -1 58 "Applying routine `simplify[trig]` to object R(dn,dn,dn,dn
+)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$)o!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "grdisplay( Riemann );" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~Kerr~spacetime:G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%2Covariant~RiemannG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/&%#R~G6#**%\"tG\"\"\"%\"rGF)%\"tGF)%\"rGF),$**%\"mGF),
+0*(\"\"$F))%\"aG\"\"%F))-%$cosG6#%&thetaGF5F)F)*(\"\"*F)F3F))F7\"\"#F)
+!\"\"*,\"#7F)F/F)%\"rGF))F4F>F)F=F)F)**\"\"(F))FBF>F)FCF)F=F)F?*(F2F)F
+FF)FCF)F)*&F>F))FBF5F)F)*(F5F)F/F))FBF2F)F?F)FBF),:*$)FB\"\")F)F)*(F>F
+)F/F))FBFEF)F?*&)FB\"\"'F)FCF)F)**F2F)FSF)FCF)F=F)F)*,FTF))FB\"\"&F)FC
+F)F=F)F/F)F?**F2F)FIF)F3F)F=F)F)**F2F)FIF)F3F)F6F)F)*,FTF)FKF)F3F)F6F)
+F/F)F?**F2F)FFF))F4FTF)F6F)F)*(FgnF))F7FTF)FFF)F)*,F>F)FgnF)FinF)F/F)F
+BF)F?*&)F4FOF)FinF)F)F?F?" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#R~G6#
+**%\"tG\"\"\"%\"rGF)%\"tGF)%&thetaGF),$*0\"\"$F)-%$sinG6#%&thetaGF)%\"
+mGF)-%$cosGF2F)%\"aG\"\"#,&*&)F7F8F))F5F8F)F)*&F/F))%\"rGF8F)!\"\"F),*
+*$)F?\"\"'F)F)**F/F))F?\"\"%F)F;F)F<F)F)**F/F)F>F))F7FGF))F5FGF)F)*&)F
+7FDF))F5FDF)F)F@F@" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#R~G6#**%\"tG
+\"\"\"%\"rGF)%\"rGF)%$phiGF)*0,&*(\"\"$F))%\"aG\"\"#F))-%$cosG6#%&thet
+aGF3F)F)*$)%\"rGF3F)!\"\"F)F2F)F;F)%\"mGF),(*&F0F)F1F)F)*(\"\"%F)F=F)F
+;F)F<*&F0F)F:F)F)F)-%$sinGF7F3,:*$)F;\"\")F)F)*(F3F)F=F))F;\"\"(F)F<*&
+)F;\"\"'F)F1F)F)**F0F)FMF)F1F)F4F)F)*,FNF))F;\"\"&F)F1F)F4F)F=F)F<**F0
+F))F;FAF))F2FAF)F4F)F)**F0F)FTF)FUF))F5FAF)F)*,FNF))F;F0F)FUF)FWF)F=F)
+F<**F0F)F:F))F2FNF)FWF)F)*(FenF))F5FNF)F:F)F)*,F3F)FenF)FgnF)F=F)F;F)F
+<*&)F2FHF)FgnF)F)F<" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#R~G6#**%\"t
+G\"\"\"%\"rGF)%&thetaGF)%$phiGF)*.-%$sinG6#%&thetaGF)%\"mGF)-%$cosGF0F
+)%\"aGF),,*&)F5\"\"%F))F3F9F)F)*(\"\"$F)F8F))F3\"\"#F)!\"\"**\"\"&F))%
+\"rGF>F))F5F>F)F=F)F?*(\"\"*F)FBF)FDF)F)*&\"\"'F))FCF9F)F)F),**$)FCFHF
+)F)**F<F)FIF)FDF)F=F)F)**F<F)FBF)F8F)F:F)F)*&)F5FHF))F3FHF)F)F?" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#R~G6#**%\"tG\"\"\"%&thetaGF)%\"tGF
+)%&thetaGF)**%\"rGF)%\"mGF),0*(\"\"'F))%\"aG\"\"%F))-%$cosG6#%&thetaGF
+5F)F)*(\"\"*F)F3F))F7\"\"#F)!\"\"**\"\"&F))F.F>F))F4F>F)F=F)F?*,F2F)F/
+F)F.F)FCF)F=F)F)*(\"\"$F)FBF)FCF)F)*$)F.F5F)F)*(F>F)F/F))F.FFF)F?F),**
+$)F.F2F)F)**FFF)FHF)FCF)F=F)F)**FFF)FBF)F3F)F6F)F)*&)F4F2F))F7F2F)F)F?
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#R~G6#**%\"tG\"\"\"%&thetaGF)%
+\"rGF)%$phiGF)*.-%$sinG6#%&thetaGF)%\"mGF)-%$cosGF0F)%\"aGF),,*(\"\"#F
+))F5\"\"%F))F3F:F)F)*(\"\"$F)F9F))F3F8F)!\"\"**\"\"(F))%\"rGF8F))F5F8F
+)F>F)F?*(\"\"*F)FBF)FDF)F)*&F=F))FCF:F)F)F),**$)FC\"\"'F)F)**F=F)FHF)F
+DF)F>F)F)**F=F)FBF)F9F)F;F)F)*&)F5FLF))F3FLF)F)F?" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/&%#R~G6#**%\"tG\"\"\"%&thetaGF)%&thetaGF)%$phiGF),$*0,
+&*(\"\"$F))%\"aG\"\"#F))-%$cosG6#%&thetaGF4F)F)*$)%\"rGF4F)!\"\"F)F3F)
+F<F)%\"mGF),(*&F1F)F2F)F)*(F4F)F>F)F<F)F=*&F1F)F;F)F)F)-%$sinGF8F4,**$
+)F<\"\"'F)F)**F1F))F<\"\"%F)F2F)F5F)F)**F1F)F;F))F3FKF))F6FKF)F)*&)F3F
+HF))F6FHF)F)F=F=" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#R~G6#**%\"tG\"
+\"\"%$phiGF)%\"tGF)%$phiGF),$*.,&*(\"\"$F))%\"aG\"\"#F))-%$cosG6#%&the
+taGF4F)F)*$)%\"rGF4F)!\"\"F),(F:F)*(F4F)%\"mGF)F<F)F=*$F2F)F)F)F@F)F<F
+)-%$sinGF8F4,**$)F<\"\"'F)F)**F1F))F<\"\"%F)F2F)F5F)F)**F1F)F;F))F3FJF
+))F6FJF)F)*&)F3FGF))F6FGF)F)F=F=" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&
+%#R~G6#**%\"tG\"\"\"%$phiGF)%\"rGF)%&thetaGF)*.-%$sinG6#%&thetaGF)%\"m
+GF)-%$cosGF0F)%\"aGF),&*&)F5\"\"#F))F3F9F)F)*&\"\"$F))%\"rGF9F)!\"\"F)
+,(*$)F>\"\"%F)F)**F9F)F=F)F8F)F:F)F)*&)F5FCF))F3FCF)F)F?" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/&%#R~G6#**%\"rG\"\"\"%&thetaGF)%\"rGF)%&thetaGF
+)**%\"mGF)%\"rGF),&*(\"\"$F))%\"aG\"\"#F))-%$cosG6#%&thetaGF5F)F)*$)F/
+F5F)!\"\"F),.*$)F/\"\"%F)F)*(F5F)F.F))F/F2F)F=*&F<F)F3F)F)*(F<F)F3F)F6
+F)F)*,F5F)F.F)F/F)F3F)F6F)F=*&)F4FAF)F6F)F)F=" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/&%#R~G6#**%\"rG\"\"\"%$phiGF)%\"rGF)%$phiGF),$*,,:*(\"
+\"'F))%\"aGF1F))-%$cosG6#%&thetaG\"\"%F)F)*,\"#7F)F4F)%\"mGF)%\"rGF))F
+3F9F)!\"\"**F1F))F=\"\"#F)F>F)F4F)F)*(\"\"*F)F2F))F5FBF)F?**\"#9F)F>F)
+FAF)FEF)F?*,F;F)FEF)F<F)F=F)F>F)F)**\"\"&F))F=F9F))F3FBF)FEF)F?*,F9F)F
+EF)F<F))F=\"\"$F)FLF)F)*(FOF)FAF)F>F)F)**F9F)F<F)FNF)FLF)F?*(F9F)FLF)F
+KF)F)*$)F=F1F)F)F)F<F)F=F)-%$sinGF7FB,:*$)F=\"\")F)F)*(FBF)F<F))F=\"\"
+(F)F?*&FTF)FLF)F)**FOF)FTF)FLF)FEF)F)*,F1F))F=FJF)FLF)FEF)F<F)F?**FOF)
+FKF)F>F)FEF)F)**FOF)FKF)F>F)F4F)F)*,F1F)FNF)F>F)F4F)F<F)F?**FOF)FAF)F2
+F)F4F)F)*(F2F))F5F1F)FAF)F)*,FBF)F2F)FaoF)F<F)F=F)F?*&)F3FZF)FaoF)F)F?
+F?" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#R~G6#**%\"rG\"\"\"%$phiGF)%&
+thetaGF)%$phiGF),$*2\"\"$F),&*&)%\"aG\"\"#F))-%$cosG6#%&thetaGF4F)F)*&
+F/F))%\"rGF4F)!\"\"F)F3F4,&*$F;F)F)*$F2F)F)F)%\"mGF)F6F)-%$sinGF8F/,**
+$)F<\"\"'F)F)**F/F))F<\"\"%F)F2F)F5F)F)**F/F)F;F))F3FJF))F6FJF)F)*&)F3
+FGF))F6FGF)F)F=F=" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#R~G6#**%&thet
+aG\"\"\"%$phiGF)%&thetaGF)%$phiGF)*,,:*(\"\"$F))%\"aG\"\"'F))-%$cosG6#
+%&thetaG\"\"%F)F)**F0F))%\"rG\"\"#F))F2F9F)F4F)F)*,F3F)F4F)%\"mGF)F<F)
+F>F)!\"\"*(\"\"*F)F1F))F5F=F)FA**\"#;F)F>F)F;F)FDF)FA*,F3F)FDF)F@F)F<F
+)F>F)F)*,F=F)FDF)F@F))F<F0F))F2F=F)F)**\"\"(F))F<F9F)FJF)FDF)FA*(F0F)F
+;F)F>F)F)**F=F)F@F)FIF)FJF)FA*(\"\"&F)FJF)FMF)F)*&F=F))F<F3F)F)F)F@F)F
+<F)-%$sinGF7F=,**$FSF)F)**F0F)FMF)FJF)FDF)F)**F0F)F;F)F>F)F4F)F)*&F1F)
+)F5F3F)F)FA" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "grcalcalter(
+ R(dn,dn), 2 );" }}{PARA 6 "" 1 "" {TEXT -1 50 "Simplification will be
+ applied during calculation." }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 
+6 "" 1 "" {TEXT -1 57 "Applying routine `simplify[trig]` to object Chr
+(dn,dn,up)" }}{PARA 6 "" 1 "" {TEXT -1 52 "Applying routine `simplify[
+trig]` to object R(dn,dn)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Ti
+me~G$\"$(o!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "grdisplay
+( R(dn,dn) );" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~Kerr~spacet
+ime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%0Covariant~RicciG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%\"RG6$%#dnGF&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/*&&%#R~G6#%\"aG\"\"\"&%!G6#%\"bGF)%8All~components~are
+~zeroG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "grdef(`En\{a b\}:
+=R\{a b\}-Ricciscalar*g\{a b\}/2`);" }}{PARA 6 "" 1 "" {TEXT -1 32 "Cr
+eated definition for En(dn,dn)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 21 "grcalcd( En(dn,up) );" }}{PARA 6 "" 1 "" {TEXT -1 33 "Created \+
+definition for En(dn,up) " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Ti
+me~G$\"\"!F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~Kerr~spaceti
+me:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%*En(dn,up)G" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#-%#EnG6$%#dnG%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#/)&%#EnG6#%\"aG%\"bG%8All~components~are~zeroG" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "16 0 0" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
